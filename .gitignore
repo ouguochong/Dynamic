@@ -78,6 +78,40 @@ libconftest.dylib*
 *.lo
 *.la
 
++# Compiled Object files
++*.slo
++*.obj
++
++# Precompiled Headers
++*.gch
++*.pch
++
++# Compiled Dynamic libraries
++*.so
++*.dylib
++*.dll
++
++# Fortran module files
++*.mod
++*.smod
++
++# Compiled Static libraries
++*.lai
++*.lib
++
++# Executables
++*.out
++*.app
++
++# CMake
++CMakeFiles/
++*.cmake
++CMakeCache.txt
++install_manifest.txt
++
++# Qt Creator
++*.user
+
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
